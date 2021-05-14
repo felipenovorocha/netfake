@@ -12,6 +12,7 @@
   margin: 0px;
   padding: 0px;
   text-decoration: none;
+  overflow: hidden;
 }
 
 body {
@@ -21,13 +22,10 @@ body {
 
 header .container {
   display: flex;
+  min-width: 98.5vw;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-}
-
-nav {
-  margin-right: -220px;
 }
 
 header .logo {
@@ -65,6 +63,7 @@ header nav a:hover {
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
+  /* padding-bottom: 5rem !important; */
 }
 
 .filme-principal,
